@@ -82,6 +82,13 @@ public class LinearRegression {
 
 		public void process() {
 			// Get the data
+			/*
+			 * date file name is data12
+			 * data are in below format
+			 * 1,2
+			   2,4
+			   4,8				
+			 */
 			List<Data> points = getTheDataPoints("data12");
 			// Define the hyper parameters
 			double learningRate = .0001;
